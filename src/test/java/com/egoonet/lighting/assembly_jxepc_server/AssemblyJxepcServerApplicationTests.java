@@ -9,8 +9,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class AssemblyJxepcServerApplicationTests {
 
+
 	@Test
-	public void contextLoads() {
+	public void testInsert() throws Exception {
 	}
 
 }
