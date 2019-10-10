@@ -22,9 +22,9 @@ import java.util.List;
 @Transactional
 public class UserNameService implements UserDetailsService {
     @Autowired
-    UserNameDao userNameDao;
+    private UserNameDao userNameDao;
     @Autowired
-    RoleDao roleDao;
+    private RoleDao roleDao;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
