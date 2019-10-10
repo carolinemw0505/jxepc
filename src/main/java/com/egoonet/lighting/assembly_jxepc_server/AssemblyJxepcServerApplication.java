@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @MapperScan(basePackages = "com.egoonet.lighting.assembly_jxepc_server.dao") //2
 public class AssemblyJxepcServerApplication {
 
-	@RequestMapping("/")
-	public String index(){
-		return "Hello Spring Boot";
-	}
 	public static void main(String[] args) {
 		SpringApplication.run(AssemblyJxepcServerApplication.class, args);
 	}
